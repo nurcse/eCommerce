@@ -77,7 +77,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="header_bottom">
 	     	<div class="menu">
 	     		<ul>
-			    	<li class="active"><a href="index.html">Home</a></li>
+			    	<li class="active"><a href="index.jsp">Home</a></li>
 			    	<li><a href="about.html">About</a></li>
 			    	<li><a href="delivery.html">Delivery</a></li>
 			    	<li><a href="news.html">News</a></li>
@@ -118,7 +118,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			                    <div id="mover">
 			                    	<div id="slide-1" class="slide">			                    
 									 <div class="slider-img">
-									     <a href="products.jsp"><img src="images/slide-1-image.png" alt="learn more" /></a>									    
+									     <a href="<%=request.getContextPath()%>/category/products?id=MobilePhone"><img src="images/slide-1-image.png" alt="learn more" /></a>									    
 									  </div>
 						             	<div class="slider-text">
 		                                 <h1>Clearance<br><span>SALE</span></h1>
@@ -126,7 +126,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									   <div class="features_list">
 									   	<h4>Get to Know More About Our Memorable Services Lorem Ipsum is simply dummy text</h4>							               
 							            </div>
-							             <a href="products.jsp" class="button">Shop Now</a>
+							             <a href="<%=request.getContextPath()%>/category/products?id=MobilePhone" class="button">Shop Now</a>
 					                   </div>			               
 									  <div class="clear"></div>				
 				                  </div>	
@@ -137,16 +137,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									   <div class="features_list">
 									   	<h4>Get to Know More About Our Memorable Services</h4>							               
 							            </div>
-							             <a href="products.jsp" class="button">Shop Now</a>
+							             <a href="<%=request.getContextPath()%>/category/products?id=MobilePhone" class="button">Shop Now</a>
 					                   </div>		
 						             	 <div class="slider-img">
-									     <a href="products.jsp"><img src="images/slide-3-image.jpg" alt="learn more" /></a>
+									     <a href="<%=request.getContextPath()%>/category/products?id=MobilePhone"><img src="images/slide-3-image.jpg" alt="learn more" /></a>
 									  </div>						             					                 
 									  <div class="clear"></div>				
 				                  </div>
 				                  <div class="slide">						             	
 					                  <div class="slider-img">
-									     <a href="products.jsp"><img src="images/slide-2-image.jpg" alt="learn more" /></a>
+									     <a href="<%=request.getContextPath()%>/category/products?id=MobilePhone"><img src="images/slide-2-image.jpg" alt="learn more" /></a>
 									  </div>
 									  <div class="slider-text">
 		                                 <h1>Clearance<br><span>SALE</span></h1>
@@ -154,7 +154,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									   <div class="features_list">
 									   	<h4>Get to Know More About Our Memorable Services Lorem Ipsum is simply dummy text</h4>							               
 							            </div>
-							             <a href="products.jsp" class="button">Shop Now</a>
+							             <a href="<%=request.getContextPath()%>/category/products?id=MobilePhone" class="button">Shop Now</a>
 					                   </div>	
 									  <div class="clear"></div>				
 				                  </div>												

@@ -5,6 +5,7 @@ D:\java\eCommerce\src\main\java\servlets\userRegisterServlet.java
 D:\java\eCommerce\src\main\java\pojo\DeliveryItem.java
 D:\java\eCommerce\src\main\java\pojo\User.java
 D:\java\eCommerce\src\main\java\dao\DatabaseConnection.java
+D:\java\eCommerce\src\main\java\servlets\orderConfirmationServlet.java
 D:\java\eCommerce\src\main\java\dao\CrudDao.java
 D:\java\eCommerce\src\main\java\dao\DataService.java
 D:\java\eCommerce\src\main\java\servlets\homePageServlet.java
